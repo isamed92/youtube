@@ -10,7 +10,7 @@ export class YoutubeService {
 
 
   url: string = 'https://www.googleapis.com/youtube/v3/';
-  apiKey: string = 'AIzaSyDsM1O09QB5FLdL0m5qokVH4EtD2HMZFs0';
+  apiKey: string = '';
 
   constructor(
     public http: HttpClient
