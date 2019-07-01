@@ -6,16 +6,20 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { LottieAnimationViewModule } from 'ng-lottie';
+import { HttpClientModule } from '@angular/common/http';
+import { VideoYoutubePipe } from './pipes/video-youtube.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    VideoYoutubePipe
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     LottieAnimationViewModule
   ],
   providers: [],
